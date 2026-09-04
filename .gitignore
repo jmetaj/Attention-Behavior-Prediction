@@ -1,0 +1,7 @@
+__pycache__/
+.agents/
+.vscode/
+*.csv
+logs/
+*.log
+*.sqlite3

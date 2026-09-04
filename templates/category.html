@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Category</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Product Study</div>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="/">Home</a>
+      <a href="category.html?category=laptop" data-category-nav="laptop">Laptops</a>
+      <a href="category.html?category=gpu" data-category-nav="gpu">GPUS</a>
+      <a href="category.html?category=monitor" data-category-nav="monitor">Monitors</a>
+      <a href="category.html?category=keyboard" data-category-nav="keyboard">Keyboards</a>
+      <a href="category.html?category=mouse" data-category-nav="mouse">Mice</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="intro" aria-labelledby="category-title">
+      <p class="eyebrow">Product Category</p>
+      <h1 id="category-title">Products</h1>
+      <p class="summary" id="category-summary"></p>
+    </section>
+
+    <section class="product-grid" id="category-products" aria-label="Filtered product list"></section>
+  </main>
+
+  <script src="/static/js/product-data.js"></script>
+  <script src="/static/js/category.js"></script>
+  <script src="/static/js/tracker.js"></script>
+  <script src="/static/js/debug-overlay.js"></script>
+</body>
+</html>

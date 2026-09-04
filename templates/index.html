@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Attention Study</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Product Study</div>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#" aria-current="page">Home</a>
+      <a href="category.html?category=laptop">Laptops</a>
+      <a href="category.html?category=gpu">GPUS</a>
+      <a href="category.html?category=monitor">Monitors</a>
+      <a href="category.html?category=keyboard">Keyboards</a>
+      <a href="category.html?category=mouse">Mice</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Visual Attention Experiment</p>
+      <h1 id="page-title">Product Listing</h1>
+      <p class="summary">
+        Browse the products naturally. Interaction logging can be added later for mouse, gaze, and attention analysis.
+      </p>
+    </section>
+
+    <section class="product-grid" id="home-products" aria-label="Product list"></section>
+  </main>
+  <script src="/static/js/product-data.js"></script>
+  <script>
+    (function () {
+      const grid = document.getElementById("home-products");
+      let hasGpuAnchor = false;
+      grid.innerHTML = window.PRODUCTS.map(function (product, index) {
+        let anchorId = "";
+        if (index === 0) {
+          anchorId = ' id="laptops"';
+        } else if (product.category === "gpu" && !hasGpuAnchor) {
+          anchorId = ' id="gpus"';
+          hasGpuAnchor = true;
+        }
+        return [
+          '<article class="product-card"' + anchorId + ' data-product-id="' + product.id + '" data-category="' + product.category + '">',
+          '<a class="product-image-link" href="product.html?id=' + product.id + '" aria-label="View ' + product.name + ' details">',
+          '<img class="product-image" alt="' + product.alt + '" src="' + product.image_url + '" onerror="this.onerror=null;this.src=window.PRODUCT_PLACEHOLDER_IMAGE;">',
+          "</a>",
+          '<div class="product-body">',
+          "<h2>" + product.name + "</h2>",
+          '<p class="price">' + product.price + "</p>",
+          '<p class="specs">' + product.specs.join("<br>") + "</p>",
+          "</div>",
+          "</article>",
+        ].join("");
+      }).join("");
+    })();
+  </script>
+  <script src="/static/js/tracker.js"></script>
+  <script src="/static/js/debug-overlay.js"></script>
+</body>
+</html>

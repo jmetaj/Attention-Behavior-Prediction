@@ -1,0 +1,552 @@
+[
+  {
+    "id": "laptop-01",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Apple MacBook Pro 14 M5 Pro",
+    "price": "$2,499",
+    "alt": "Apple MacBook Pro 14 M5 Pro",
+    "image_url": "/static/images/laptops/20260716121936_apple_macbook_pro_14_2_ips_retina_display_120hz_m5_pro_15_core_24gb_2tb_ssd_space_black_gr_keyboard.jpeg",
+    "specs": [
+      "M5 Pro 15-core processor",
+      "24GB RAM",
+      "2TB SSD",
+      "14.2-inch Retina 120Hz display"
+    ],
+    "details": "A premium laptop for development, creative work, and demanding multitasking."
+  },
+  {
+    "id": "laptop-02",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Dell XPS 16",
+    "price": "$1,899",
+    "alt": "Dell XPS 16",
+    "image_url": "/static/images/laptops/20260525132815_dell_xps_16_16_fhd_120hz_ultra_7_355_16gb_1tb_ssd_w11_pro_international_english_keyboard.jpeg",
+    "specs": [
+      "Intel Ultra 7 355 processor",
+      "16GB RAM",
+      "1TB SSD",
+      "16-inch FHD 120Hz display"
+    ],
+    "details": "A slim workstation laptop for office work, productivity, and media editing."
+  },
+  {
+    "id": "laptop-03",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "HP Omen 16",
+    "price": "$1,699",
+    "alt": "HP Omen 16",
+    "image_url": "/static/images/laptops/20260116113705_hp_omen_16_an0015nv_16_ips_fhd_144hz_ultra_7_255h_24gb_1tb_ssd_geforce_rtx_5070_w11_home_international_english_keyboard.jpeg",
+    "specs": [
+      "Intel Ultra 7 255H processor",
+      "24GB RAM",
+      "1TB SSD",
+      "GeForce RTX 5070"
+    ],
+    "details": "A gaming laptop with high-refresh visuals and dedicated graphics performance."
+  },
+  {
+    "id": "laptop-04",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "MSI Katana 15 HX",
+    "price": "$1,599",
+    "alt": "MSI Katana 15 HX",
+    "image_url": "/static/images/laptops/xlarge_20250618162810_msi_katana_15_hx_b14wgk_15_6_qhd_165hz_i7_14650hx_32gb_1tb_ssd_w11_home_international_english_keyboard.jpeg",
+    "specs": [
+      "Intel Core i7-14650HX processor",
+      "32GB RAM",
+      "1TB SSD",
+      "15.6-inch QHD 165Hz display"
+    ],
+    "details": "A performance laptop for gaming, streaming, and heavier everyday workloads."
+  },
+  {
+    "id": "laptop-05",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Asus TUF A18",
+    "price": "$1,549",
+    "alt": "Asus TUF A18",
+    "image_url": "/static/images/laptops/xlarge_20250529122002_asus_tuf_a18_18_ips_fhd_ryzen_7_260_32gb_1_0tb_ssd_geforce_rtx_5070_w11_home_international_english_keyboard.jpeg",
+    "specs": [
+      "AMD Ryzen 7 260 processor",
+      "32GB RAM",
+      "1TB SSD",
+      "GeForce RTX 5070"
+    ],
+    "details": "A large-screen gaming laptop with a durable chassis and modern GPU."
+  },
+  {
+    "id": "laptop-06",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Lenovo Legion 5 15IRX10",
+    "price": "$1,429",
+    "alt": "Lenovo Legion 5 15IRX10",
+    "image_url": "/static/images/laptops/20251031123830_lenovo_legion_5_15irx10_15_1_oled_qhd_165hz_i7_14700hx_16gb_512gb_ssd_geforce_rtx_5060_w11_home_eclipse_black_us_keyboard.jpeg",
+    "specs": [
+      "Intel Core i7-14700HX processor",
+      "16GB RAM",
+      "512GB SSD",
+      "GeForce RTX 5060"
+    ],
+    "details": "A balanced gaming laptop for 1440p play, school, and productivity."
+  },
+  {
+    "id": "laptop-07",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Acer Nitro V16 AI",
+    "price": "$1,349",
+    "alt": "Acer Nitro V16 AI",
+    "image_url": "/static/images/laptops/xlarge_20250916121223_acer_nitro_v16_ai_16_ips_fhd_180hz_ryzen_7_260_32gb_1tb_ssd_geforce_rtx_5070_w11_home_international_english_keyboard.jpeg",
+    "specs": [
+      "AMD Ryzen 7 260 processor",
+      "32GB RAM",
+      "1TB SSD",
+      "16-inch FHD 180Hz display"
+    ],
+    "details": "A fast-refresh laptop for games and AI-assisted everyday workflows."
+  },
+  {
+    "id": "laptop-08",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Asus ROG Zephyrus Duo 16",
+    "price": "$2,899",
+    "alt": "Asus ROG Zephyrus Duo 16",
+    "image_url": "/static/images/laptops/large_20260708131114_asus_rog_zephyrus_duo_16_16_oled_touchscreen_120hz_ultra_9_386h_32gb_1tb_ssd_geforce_rtx_5070_ti_w11_home_stellar_grey_gr_keyboard.jpeg",
+    "specs": [
+      "Intel Ultra 9 386H processor",
+      "32GB RAM",
+      "1TB SSD",
+      "GeForce RTX 5070 Ti"
+    ],
+    "details": "A dual-screen creative and gaming laptop for advanced multitasking."
+  },
+  {
+    "id": "laptop-09",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 9",
+    "price": "$1,199",
+    "alt": "Lenovo ThinkPad X1 Carbon Gen 9",
+    "image_url": "/static/images/laptops/20220826113555_lenovo_thinkpad_x1_carbon_gen_9_14_ips_i7_1165g7_32gb_1tb_ssd_w10_pro_gr_keyboard.jpeg",
+    "specs": [
+      "Intel Core i7-1165G7 processor",
+      "32GB RAM",
+      "1TB SSD",
+      "14-inch IPS display"
+    ],
+    "details": "A lightweight business laptop focused on portability and reliability."
+  },
+  {
+    "id": "laptop-10",
+    "category": "laptop",
+    "categoryLabel": "Laptops",
+    "name": "Apple MacBook Air 15 M4",
+    "price": "$1,299",
+    "alt": "Apple MacBook Air 15 M4",
+    "image_url": "/static/images/laptops/20250424105525_apple_macbook_air_15_3_retina_display_m4_10_core_16gb_256gb_ssd_starlight_international_english_keyboard.jpeg",
+    "specs": [
+      "Apple M4 10-core processor",
+      "16GB RAM",
+      "256GB SSD",
+      "15.3-inch Retina display"
+    ],
+    "details": "A quiet, portable laptop for study, browsing, and everyday work."
+  },
+  {
+    "id": "gpu-01",
+    "category": "gpu",
+    "categoryLabel": "GPUS",
+    "name": "Asus GeForce RTX 5070 Ti Gaming OC White",
+    "price": "$899",
+    "alt": "Asus GeForce RTX 5070 Ti Gaming OC White",
+    "image_url": "/static/images/gpus/20250529163329_asus_geforce_rtx_5070_ti_16gb_gddr7_gaming_oc_white_karta_grafikon_90yv0md3_m0na00.jpeg",
+    "specs": [
+      "16GB GDDR7",
+      "Gaming OC cooling",
+      "PCIe 5.0"
+    ],
+    "details": "A high-performance graphics card for demanding games and creative work."
+  },
+  {
+    "id": "gpu-02",
+    "category": "gpu",
+    "categoryLabel": "GPUS",
+    "name": "MSI GeForce RTX 5070 Shadow 3X OC",
+    "price": "$649",
+    "alt": "MSI GeForce RTX 5070 Shadow 3X OC",
+    "image_url": "/static/images/gpus/20250425120005_msi_geforce_rtx_5070_12gb_gddr7_shadow_3x_oc_karta_grafikon_v532_002r.jpeg",
+    "specs": [
+      "12GB GDDR7",
+      "Triple-fan cooling",
+      "PCIe 5.0"
+    ],
+    "details": "A capable graphics card for high-refresh gaming and GPU-accelerated tasks."
+  },
+  {
+    "id": "gpu-03",
+    "category": "gpu",
+    "categoryLabel": "GPUS",
+    "name": "Gigabyte Radeon RX 7600 XT Gaming OC",
+    "price": "$379",
+    "alt": "Gigabyte Radeon RX 7600 XT Gaming OC",
+    "image_url": "/static/images/gpus/20240809143852_gigabyte_radeon_rx_7600_xt_16gb_gddr6_karta_grafikon_gv_r76xtgaming_oc_16gd.jpeg",
+    "specs": [
+      "16GB GDDR6",
+      "Gaming OC cooling",
+      "DisplayPort and HDMI"
+    ],
+    "details": "A memory-rich GPU for smooth 1080p gaming and modern desktop upgrades."
+  },
+  {
+    "id": "gpu-04",
+    "category": "gpu",
+    "categoryLabel": "GPUS",
+    "name": "PowerColor Radeon RX 7600 XT Hellhound OC",
+    "price": "$369",
+    "alt": "PowerColor Radeon RX 7600 XT Hellhound OC",
+    "image_url": "/static/images/gpus/20240130142102_powercolor_radeon_rx_7600_xt_16gb_gddr6_hellhound_oc_karta_grafikon_rx7600xt_16g_l_oc.jpeg",
+    "specs": [
+      "16GB GDDR6",
+      "Hellhound OC cooling",
+      "PCIe 4.0"
+    ],
+    "details": "An overclocked Radeon card designed for responsive gaming."
+  },
+  {
+    "id": "gpu-05",
+    "category": "gpu",
+    "categoryLabel": "GPUS",
+    "name": "Sapphire Radeon RX 7600 XT Pulse",
+    "price": "$359",
+    "alt": "Sapphire Radeon RX 7600 XT Pulse",
+    "image_url": "/static/images/gpus/20240130141527_sapphire_radeon_rx_7600_xt_16gb_gddr6_pulse_karta_grafikon.jpeg",
+    "specs": [
+      "16GB GDDR6",
+      "Dual-fan Pulse cooler",
+      "PCIe 4.0"
+    ],
+    "details": "A compact Radeon graphics card for modern game libraries."
+  },
+  {
+    "id": "gpu-06",
+    "category": "gpu",
+    "categoryLabel": "GPUS",
+    "name": "Gigabyte GeForce RTX 4070 Gaming OC V2",
+    "price": "$599",
+    "alt": "Gigabyte GeForce RTX 4070 Gaming OC V2",
+    "image_url": "/static/images/gpus/20231211153256_gigabyte_geforce_rtx_4070_12gb_gddr6x_gaming_oc_v2_karta_grafikon_gv_n4070gaming_ocv2_12gd.jpeg",
+    "specs": [
+      "12GB GDDR6X",
+      "Gaming OC cooling",
+      "Ray tracing support"
+    ],
+    "details": "A versatile GPU for 1440p gaming and accelerated creative applications."
+  },
+  {
+    "id": "gpu-07",
+    "category": "gpu",
+    "categoryLabel": "GPUS",
+    "name": "Biostar GeForce RTX 3080 Extreme Gaming",
+    "price": "$499",
+    "alt": "Biostar GeForce RTX 3080 Extreme Gaming",
+    "image_url": "/static/images/gpus/20230308114925_biostar_geforce_rtx_3080_10gb_gddr6x_extreme_gaming_karta_grafikon_vn3806rmt3.jpeg",
+    "specs": [
+      "10GB GDDR6X",
+      "Extreme Gaming cooler",
+      "PCIe 4.0"
+    ],
+    "details": "A powerful graphics option for high-resolution gaming workloads."
+  },
+  {
+    "id": "monitor-01",
+    "category": "monitor",
+    "categoryLabel": "Monitors",
+    "name": "Acer Nitro XV272UV3",
+    "price": "$279",
+    "alt": "Acer Nitro XV272UV3",
+    "image_url": "/static/images/monitors/20240617150326_acer_nitro_xv272uv3_ips_hdr_monitor_27_qhd_2560by1440_180hz.jpeg",
+    "specs": [
+      "27-inch IPS",
+      "QHD 2560 x 1440",
+      "180Hz refresh rate"
+    ],
+    "details": "A fast QHD monitor for competitive play and sharp everyday viewing."
+  },
+  {
+    "id": "monitor-02",
+    "category": "monitor",
+    "categoryLabel": "Monitors",
+    "name": "MSI G274QPF E2",
+    "price": "$249",
+    "alt": "MSI G274QPF E2",
+    "image_url": "/static/images/monitors/20240329112801_msi_g274qpf_e2_ips_hdr_gaming_monitor_27_qhd_2560by1440_180hz_me_chrono_apokrisis_1ms_gtg.jpeg",
+    "specs": [
+      "27-inch IPS",
+      "QHD 2560 x 1440",
+      "180Hz, 1ms GtG"
+    ],
+    "details": "A responsive gaming monitor with wide viewing angles."
+  },
+  {
+    "id": "monitor-03",
+    "category": "monitor",
+    "categoryLabel": "Monitors",
+    "name": "Samsung Odyssey G5",
+    "price": "$229",
+    "alt": "Samsung Odyssey G5",
+    "image_url": "/static/images/monitors/20230511121945_samsung_odyssey_g5_va_gaming_monitor_27_qhd_2560by1440_165hz_me_chrono_apokrisis_1ms_gtg.jpeg",
+    "specs": [
+      "27-inch VA",
+      "QHD 2560 x 1440",
+      "165Hz, 1ms GtG"
+    ],
+    "details": "A QHD gaming display with fast motion handling."
+  },
+  {
+    "id": "monitor-04",
+    "category": "monitor",
+    "categoryLabel": "Monitors",
+    "name": "LG 27GP850-B",
+    "price": "$299",
+    "alt": "LG 27GP850-B",
+    "image_url": "/static/images/monitors/20220804154526_lg_27gp850_b_ips_hdr_gaming_monitor_27_qhd_2560by1440_165hz_me_chrono_apokrisis_1ms_gtg.jpeg",
+    "specs": [
+      "27-inch IPS",
+      "QHD 2560 x 1440",
+      "165Hz refresh rate"
+    ],
+    "details": "A color-rich IPS monitor for games and creative work."
+  },
+  {
+    "id": "monitor-05",
+    "category": "monitor",
+    "categoryLabel": "Monitors",
+    "name": "Dell UltraSharp U2723QE",
+    "price": "$549",
+    "alt": "Dell UltraSharp U2723QE",
+    "image_url": "/static/images/monitors/20220216095901_dell_ultrasharp_u2723qe_monitor_27_4k_3840x2160.jpeg",
+    "specs": [
+      "27-inch IPS",
+      "4K 3840 x 2160",
+      "USB-C connectivity"
+    ],
+    "details": "A detailed 4K monitor for productivity and content creation."
+  },
+  {
+    "id": "monitor-06",
+    "category": "monitor",
+    "categoryLabel": "Monitors",
+    "name": "Asus TUF Gaming VG27AQ",
+    "price": "$269",
+    "alt": "Asus TUF Gaming VG27AQ",
+    "image_url": "/static/images/monitors/20191106110425_asus_tuf_gaming_vg27aq.jpeg",
+    "specs": [
+      "27-inch IPS",
+      "QHD 2560 x 1440",
+      "Gaming display"
+    ],
+    "details": "A balanced QHD display for immersive everyday gaming."
+  },
+  {
+    "id": "keyboard-01",
+    "category": "keyboard",
+    "categoryLabel": "Keyboards",
+    "name": "Razer BlackWidow V4 X",
+    "price": "$149",
+    "alt": "Razer BlackWidow V4 X",
+    "image_url": "/static/images/keyboards/20230928091153_razer_blackwidow_v4_x_gaming_michaniko_pliktrologio_me_razer_green_diakoptes_kai_rgb_fotismo_agliko_us.jpeg",
+    "specs": [
+      "Mechanical switches",
+      "RGB lighting",
+      "US layout"
+    ],
+    "details": "A full-size mechanical gaming keyboard with vivid RGB lighting."
+  },
+  {
+    "id": "keyboard-02",
+    "category": "keyboard",
+    "categoryLabel": "Keyboards",
+    "name": "Logitech MX Keys S",
+    "price": "$119",
+    "alt": "Logitech MX Keys S",
+    "image_url": "/static/images/keyboards/20230619135255_logitech_mx_keys_s_asyrmato_bluetooth_pliktrologio_agliko_us.jpeg",
+    "specs": [
+      "Wireless Bluetooth",
+      "Low-profile keys",
+      "US layout"
+    ],
+    "details": "A comfortable wireless keyboard for focused productivity."
+  },
+  {
+    "id": "keyboard-03",
+    "category": "keyboard",
+    "categoryLabel": "Keyboards",
+    "name": "Keychron K2 HE",
+    "price": "$139",
+    "alt": "Keychron K2 HE",
+    "image_url": "/static/images/keyboards/20250107162956_keychron_k2_he_k2h_j1_asyrmato_gaming_michaniko_pliktrologio_75_me_magnetic_diakoptes_kai_rgb_fotismo_agliko_us.jpeg",
+    "specs": [
+      "75% layout",
+      "Magnetic switches",
+      "Wireless connectivity"
+    ],
+    "details": "A compact mechanical keyboard with adjustable magnetic switches."
+  },
+  {
+    "id": "keyboard-04",
+    "category": "keyboard",
+    "categoryLabel": "Keyboards",
+    "name": "Asus ROG Strix Scope II 96",
+    "price": "$159",
+    "alt": "Asus ROG Strix Scope II 96",
+    "image_url": "/static/images/keyboards/20240605110308_asus_rog_strix_scope_ii_96_gaming_michaniko_pliktrologio_96_me_rgb_fotismo_agliko_us.jpeg",
+    "specs": [
+      "96% layout",
+      "Mechanical switches",
+      "RGB lighting"
+    ],
+    "details": "A space-efficient gaming keyboard with a full numeric layout."
+  },
+  {
+    "id": "keyboard-05",
+    "category": "keyboard",
+    "categoryLabel": "Keyboards",
+    "name": "SteelSeries Apex Pro TKL Gen 3",
+    "price": "$199",
+    "alt": "SteelSeries Apex Pro TKL Gen 3",
+    "image_url": "/static/images/keyboards/20250214164851_steelseries_apex_pro_tkl_gen_3_gaming_michaniko_pliktrologio_tenkeyless_me_steelseries_omnipoint_diakoptes_kai_rgb_fotismo_agliko_us.jpeg",
+    "specs": [
+      "Tenkeyless layout",
+      "OmniPoint switches",
+      "RGB lighting"
+    ],
+    "details": "A tournament-size keyboard with adjustable actuation."
+  },
+  {
+    "id": "keyboard-06",
+    "category": "keyboard",
+    "categoryLabel": "Keyboards",
+    "name": "Corsair K70 Core TKL",
+    "price": "$109",
+    "alt": "Corsair K70 Core TKL",
+    "image_url": "/static/images/keyboards/20250620111852_corsair_k70_core_tkl_gaming_michaniko_pliktrologio_tenkeyless_me_corsair_mlx_red_diakoptes_kai_rgb_fotismo_agliko_us.jpeg",
+    "specs": [
+      "Tenkeyless layout",
+      "MLX Red switches",
+      "RGB lighting"
+    ],
+    "details": "A responsive compact keyboard for gaming desks."
+  },
+  {
+    "id": "keyboard-07",
+    "category": "keyboard",
+    "categoryLabel": "Keyboards",
+    "name": "Asus ROG Strix Scope II 96 Snow",
+    "price": "$169",
+    "alt": "Asus ROG Strix Scope II 96 Snow",
+    "image_url": "/static/images/keyboards/20250220165754_asus_rog_strix_scope_ii_96_gaming_michaniko_pliktrologio_96_me_rog_nx_snow_diakoptes_kai_rgb_fotismo_agliko_us_leyko.jpeg",
+    "specs": [
+      "96% layout",
+      "ROG NX Snow switches",
+      "White finish"
+    ],
+    "details": "A bright mechanical keyboard with a compact full-key layout."
+  },
+  {
+    "id": "mouse-01",
+    "category": "mouse",
+    "categoryLabel": "Mice",
+    "name": "Logitech Pro X Superlight 2",
+    "price": "$159",
+    "alt": "Logitech Pro X Superlight 2",
+    "image_url": "/static/images/mice/20260220131536_logitech_pro_x_superlight_2_asyrmato_gaming_pontiki_32000_dpi_mayro.jpeg",
+    "specs": [
+      "Wireless gaming",
+      "32,000 DPI",
+      "Lightweight design"
+    ],
+    "details": "An ultra-light wireless mouse for fast, precise competitive play."
+  },
+  {
+    "id": "mouse-02",
+    "category": "mouse",
+    "categoryLabel": "Mice",
+    "name": "Corsair M75 Air",
+    "price": "$129",
+    "alt": "Corsair M75 Air",
+    "image_url": "/static/images/mice/20240808165654_corsair_m75_air_asyrmato_gaming_pontiki_26000_dpi_mayro.jpeg",
+    "specs": [
+      "Wireless gaming",
+      "26,000 DPI",
+      "Lightweight design"
+    ],
+    "details": "A light wireless gaming mouse with an ergonomic shape."
+  },
+  {
+    "id": "mouse-03",
+    "category": "mouse",
+    "categoryLabel": "Mice",
+    "name": "Razer DeathAdder V3",
+    "price": "$79",
+    "alt": "Razer DeathAdder V3",
+    "image_url": "/static/images/mice/20230223123952_razer_deathadder_v3_gaming_pontiki_30000_dpi_mayro.jpeg",
+    "specs": [
+      "30,000 DPI",
+      "Ergonomic shape",
+      "Gaming sensor"
+    ],
+    "details": "A comfortable right-handed mouse built for accurate tracking."
+  },
+  {
+    "id": "mouse-04",
+    "category": "mouse",
+    "categoryLabel": "Mice",
+    "name": "Asus ROG Harpe Ace Aim Lab Edition",
+    "price": "$139",
+    "alt": "Asus ROG Harpe Ace Aim Lab Edition",
+    "image_url": "/static/images/mice/20230126132923_asus_rog_harpe_ace_aim_lab_edition_asyrmato_bluetooth_pontiki_mayro.jpeg",
+    "specs": [
+      "Wireless Bluetooth",
+      "Gaming sensor",
+      "Lightweight design"
+    ],
+    "details": "A precision gaming mouse tuned with Aim Lab insights."
+  },
+  {
+    "id": "mouse-05",
+    "category": "mouse",
+    "categoryLabel": "Mice",
+    "name": "Logitech MX Master 3S",
+    "price": "$109",
+    "alt": "Logitech MX Master 3S",
+    "image_url": "/static/images/mice/20220608115927_logitech_mx_master_3s_asyrmato_ergonomiko_bluetooth_pontiki_graphite.jpeg",
+    "specs": [
+      "Wireless Bluetooth",
+      "Ergonomic design",
+      "Quiet clicks"
+    ],
+    "details": "An ergonomic productivity mouse for long work sessions."
+  },
+  {
+    "id": "mouse-06",
+    "category": "mouse",
+    "categoryLabel": "Mice",
+    "name": "Logitech Gaming Mouse",
+    "price": "$59",
+    "alt": "Logitech Gaming Mouse",
+    "image_url": "/static/images/mice/20211104112224_2ae30bbc.jpeg",
+    "specs": [
+      "Gaming sensor",
+      "Comfortable grip",
+      "Wired connection"
+    ],
+    "details": "A dependable gaming mouse for everyday desktop use."
+  }
+]
