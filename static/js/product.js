@@ -7,7 +7,7 @@
   const container = document.getElementById("product-detail");
 
   if (!product) {
-    document.title = "Product not found | Product Study";
+    document.title = "Product not found | Tech Store";
     container.innerHTML = [
       '<section class="intro">',
       '<p class="eyebrow">Product Details</p>',
@@ -18,7 +18,7 @@
     return;
   }
 
-  document.title = product.name + " | Product Study";
+  document.title = product.name + " | Tech Store";
   container.dataset.productId = product.id;
   container.dataset.category = product.category;
   container.innerHTML = [

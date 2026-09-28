@@ -231,6 +231,17 @@ h1 {
   background: #edf5f5;
 }
 
+.task-card { max-width: 720px; padding: 34px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); }
+.task-button, .active-task-panel button { min-height: 42px; padding: 0 18px; border: 0; border-radius: 6px; background: var(--accent); color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.task-button { margin-top: 28px; }
+.task-button:hover, .active-task-panel button:hover { background: var(--accent-dark); }
+.task-status { margin: 28px 0 0; color: var(--accent-dark); font-weight: 700; }
+.participant-instructions { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); }
+.participant-instructions h2 { margin: 0 0 10px; color: var(--text); font-size: 19px; }
+.participant-instructions ul { margin: 0; padding-left: 22px; }
+.participant-instructions li + li { margin-top: 7px; }
+.active-task-panel { position: fixed; right: 18px; bottom: 18px; z-index: 20; display: flex; align-items: center; gap: 12px; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); font-size: 14px; }
+
 @media (max-width: 900px) {
   .topbar {
     padding: 0 24px;

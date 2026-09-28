@@ -81,6 +81,7 @@ def init_db():
         # These migrations are additive: existing event rows are preserved and
         # remain readable through the legacy x/y columns.
         event_column_definitions = {
+            "task_id": "TEXT",
             "product_id": "TEXT",
             "mouse_x": "REAL",
             "mouse_y": "REAL",
@@ -202,6 +203,16 @@ def tracker_script():
     return send_from_directory(SCRIPTS_DIR, "tracker.js")
 
 
+@app.get("/task.js")
+def task_script():
+    return send_from_directory(SCRIPTS_DIR, "task.js")
+
+
+@app.get("/task.html")
+def task_page():
+    return send_from_directory(TEMPLATES_DIR, "task.html")
+
+
 @app.get("/images/<path:filename>")
 def images(filename):
     return send_from_directory(STATIC_DIR / "images", filename)
@@ -271,6 +282,7 @@ def receive_events():
                 event.get("x"),
                 event.get("y"),
                 timestamp,
+                event.get("task_id"),
                 event.get("product_id") or event.get("image_id"),
                 event.get("mouse_x"),
                 event.get("mouse_y"),
@@ -292,10 +304,10 @@ def receive_events():
             conn.executemany(
                 """
                 INSERT INTO events (
-                    session_id, event_type, x, y, timestamp, product_id,
+                    session_id, event_type, x, y, timestamp, task_id, product_id,
                     mouse_x, mouse_y, category, scroll_position
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 rows,
             )
@@ -318,7 +330,7 @@ def get_session_events(session_id):
         events = conn.execute(
             """
             SELECT
-                id, session_id, event_type, x, y, timestamp, product_id,
+                id, session_id, event_type, x, y, timestamp, task_id, product_id,
                 mouse_x, mouse_y, category, scroll_position
             FROM events
             WHERE session_id = ?

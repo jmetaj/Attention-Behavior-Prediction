@@ -99,6 +99,7 @@
   function addEvent(eventData) {
     events.push({
       session_id: sessionId,
+      task_id: eventData.task_id || (window.AttentionTasks && window.AttentionTasks.getCurrentTaskId()),
       ...eventData,
     });
   }
@@ -236,4 +237,11 @@
   window.addEventListener("beforeunload", flushBeforeUnload);
 
   setInterval(sendEvents, SEND_INTERVAL_MS);
+
+  // Task lifecycle events use the established queue and endpoint so they are
+  // ordered with the existing interaction events.
+  window.AttentionTracker = {
+    trackEvent: addEvent,
+    flush: sendEvents,
+  };
 })();

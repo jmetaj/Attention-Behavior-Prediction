@@ -10,7 +10,7 @@
   const navLink = document.querySelector('[data-category-nav="' + selectedCategory + '"]');
   const categoryLabel = products[0] ? products[0].categoryLabel : "Products";
 
-  document.title = categoryLabel + " | Product Study";
+  document.title = categoryLabel + " | Tech Store";
   title.textContent = categoryLabel;
   summary.textContent = "Showing only " + categoryLabel.toLowerCase() + ". Click an image to open the product page.";
 
